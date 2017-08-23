@@ -27,3 +27,10 @@ body {
 .portfolio-item {
     margin-bottom: 30px;
 }
+
+/*
+カスタム
+*/
+body {
+    background-color: #f9f4ea;
+}
