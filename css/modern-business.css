@@ -30,3 +30,15 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+/* 見出し*/
+h2 {
+background: linear-gradient(transparent 70%, #ffe3a7 70%);
+}
+
+
+/* テキスト*/
+.small-50 {
+  font-size: 50%;
+  font-weight: normal;
+}
