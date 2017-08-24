@@ -33,7 +33,7 @@ body {
 
 /* 見出し*/
 h2 {
-background: linear-gradient(transparent 70%, #ffe3a7 70%);
+  border-bottom: 3px solid #a7d6ff;
 }
 
 
