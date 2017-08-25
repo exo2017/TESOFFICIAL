@@ -55,3 +55,10 @@ a:hover {
   color: #4183c4;
   text-decoration: underline;
 }
+
+/*表組み*/
+.table-white,
+.table-white > th,
+.table-white1 > td {
+  background-color: #ffffff;
+}
