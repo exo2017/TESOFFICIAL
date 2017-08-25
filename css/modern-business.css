@@ -56,9 +56,9 @@ a:hover {
   text-decoration: underline;
 }
 
-.btn a {
-  text-decoration: none;
+a.btn {text-decoration:none;
 }
+
 /*表組み*/
 .table-white,
 .table-white > th,
