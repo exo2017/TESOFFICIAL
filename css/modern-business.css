@@ -46,14 +46,14 @@ h2 {
 /*リンク*/
 a {
   color: #343a40;
-  text-decoration: underline;
+  text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
   color: #4183c4;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a.btn {text-decoration:none;
@@ -65,3 +65,5 @@ a.btn {text-decoration:none;
 .table-white1 > td {
   background-color: #ffffff;
 }
+
+/*フッター*/
