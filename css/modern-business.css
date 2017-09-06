@@ -8,12 +8,14 @@ body {
   padding-top: 54px;
   background-color: #f9f4ea;
   color: #343A40;
+  overflow:hidden;
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
     background-color: #f9f4ea;
+    overflow:hidden;
   }
 }
 
