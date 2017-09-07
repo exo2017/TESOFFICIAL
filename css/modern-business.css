@@ -17,6 +17,11 @@ body {
   }
 }
 
+.container {
+  width: 100%;
+  padding: 0px;
+}
+
 .carousel-item {
   height: 65vh;
   min-height: 300px;
