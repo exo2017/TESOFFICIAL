@@ -31,7 +31,7 @@
         links: true , //画像リンク取得
         limit: 5, //取得する画像数を設定
         resolution: 'low_resolution', //画像サイズを設定
-        template: '<li><a href="{{link}}"><img src="{{image}}" target="_blank"></a><span>{{caption}}</span><span>like:{{likes}},comments:{{comments}}</span></li>',
+        template: '<a href="{{link}}"><img src="{{image}}" target="_blank"></a><span>{{caption}}</span><span>like:{{likes}},comments:{{comments}}</span>',
         accessToken: '5965482946.c3eecaf.99481570fdea4ae9894a2133243c3657' //アクセストークン
     });
     feed.run();
@@ -375,7 +375,9 @@
 <!-- /.row -->
 
 <h2 class="mb-4">動物たち <span class="small-50">インスタグラム</span></h2>
-<ul id="instafeed"></ul>
+<div class="row">
+<div id="instafeed"></div>
+</div>
 
 <!-- Marketing Icons Section -->
 <div class="row mb-5">
