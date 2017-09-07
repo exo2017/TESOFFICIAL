@@ -24,7 +24,6 @@
   <!-- instafeed -->
   <script type="text/javascript" src="/TESOFFICIAL/js/instafeed.js-master/instafeed.min.js"></script>
   <script type="text/javascript">
-  $(document).ready(function() {
     var userFeed = new Instafeed({
         get: 'user', //ユーザーから取得
         userId: '5965482946', //ユーザーID(数字のみのもの)
@@ -35,7 +34,7 @@
         template: '<li><a href="{{link}}"><img src="{{image}}" target="_blank"></a><span>{{caption}}</span><span>like:{{likes}},comments:{{comments}}</span></li>',
         accessToken: '5965482946.c3eecaf.99481570fdea4ae9894a2133243c3657' //アクセストークン
     });
-    userFeed.run();
+    feed.run();
 });
 </script>
 </head>
