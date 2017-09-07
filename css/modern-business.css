@@ -83,7 +83,7 @@ a.btn {text-decoration:none;
 #instafeed .col-md-6 {
   padding: 0px;
 }
-#instafeed .figcaption {
+#instafeed figcaption {
 	background-color: rgba(0,0,0,0.8);
 	color:#FFF;
 	padding:10px;
@@ -97,7 +97,7 @@ a.btn {text-decoration:none;
 	transition: 0.3s;
 	opacity:0;
 }
-#instafeed .figcaption:hover{
+#instafeed figcaption:hover{
 	opacity:1;
 }
 /*フッター*/
