@@ -31,7 +31,7 @@
         links: true , //画像リンク取得
         limit: 5, //取得する画像数を設定
         resolution: 'low_resolution', //画像サイズを設定
-        template: '<section class="instaphoto"><a href="{{link}}"><img src="{{image}}" target="_blank"></a><span>{{caption}}</span><span>like:{{likes}},comments:{{comments}}</span></section>',
+        template: '<div class="col-lg-4 col-md-6"><a href="{{link}}"><img src="{{image}}" target="_blank"></a><span>{{caption}}</span><span>like:{{likes}},comments:{{comments}}</span></div>',
         accessToken: '5965482946.c3eecaf.99481570fdea4ae9894a2133243c3657' //アクセストークン
     });
     feed.run();
