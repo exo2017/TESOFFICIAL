@@ -77,6 +77,13 @@ a.btn {text-decoration:none;
     height: 320px;/* トリミングしたい枠の高さ */
     position: relative;
 }
+#instafeed .col-lg-6 {
+  padding: 0px;
+}
+#instafeed .col-md-6 {
+  padding: 0px;
+}
+
 /*フッター*/
 footer {
   color: #ffffff;
