@@ -70,7 +70,13 @@ a.btn {text-decoration:none;
   width:100%;
   height:100%;
 }
-
+/*insta*/
+.trim {
+    overflow: hidden;
+    width: 320px;/* トリミングしたい枠の幅 */
+    height: 320px;/* トリミングしたい枠の高さ */
+    position: relative;
+}
 /*フッター*/
 footer {
   color: #ffffff;
