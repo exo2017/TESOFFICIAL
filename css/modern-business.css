@@ -16,25 +16,6 @@ body {
     background-color: #f9f4ea;
   }
 }
-/*---------------横幅---------------*/
-@media (min-width: 992px) {
-.container {
-  width: 100%;
-  padding: 0px;
-}
-
-@media (min-width: 768px) {
-.container {
-  width: 100%;
-  padding: 0px;
-}
-
-@media (min-width: 576px) {
-.container {
-  width: 100%;
-  padding: 0px;
-}
-
 .carousel-item {
   height: 65vh;
   min-height: 300px;
