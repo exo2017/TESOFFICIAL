@@ -73,8 +73,8 @@ a.btn {text-decoration:none;
 /*insta*/
 .trim {
     overflow: hidden;
-    width: 320px;/* トリミングしたい枠の幅 */
-    height: 320px;/* トリミングしたい枠の高さ */
+    width: 305px;/* トリミングしたい枠の幅 */
+    height: 305px;/* トリミングしたい枠の高さ */
     position: relative;
 }
 #instafeed .col-lg-6 {
