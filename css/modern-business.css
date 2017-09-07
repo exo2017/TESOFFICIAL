@@ -83,6 +83,10 @@ a.btn {text-decoration:none;
 #instafeed .col-md-6 {
   padding: 0px;
 }
+#instafeed figure {
+  position: relative;
+}
+
 #instafeed figcaption {
 	background-color: rgba(0,0,0,0.8);
 	color:#FFF;
