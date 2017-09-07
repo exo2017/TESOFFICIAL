@@ -21,6 +21,23 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <!-- smallchat -->
   <script src="https://embed.small.chat/T6S8FS1B9G6WA54GQM.js" async></script>
+  <!-- instafeed -->
+  <script type="text/javascript" src="/TESOFFICIAL/js/instafeed.js-master/instafeed.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    var userFeed = new Instafeed({
+        get: 'user', //ユーザーから取得
+        userId: '5965482946', //ユーザーID(数字のみのもの)
+        sortBy:'random', //並び順をランダムに
+        links: true , //画像リンク取得
+        limit: 5, //取得する画像数を設定
+        resolution: 'low_resolution', //画像サイズを設定
+        template: '<li><a href="{{link}}"><img src="{{image}}" target="_blank"></a><span>{{caption}}</span><span>like:{{likes}},comments:{{comments}}</span></li>',
+        accessToken: '5965482946.c3eecaf.99481570fdea4ae9894a2133243c3657' //アクセストークン
+    });
+    userFeed.run();
+});
+</script>
 </head>
 
 <body>
@@ -359,6 +376,8 @@
 
 <!-- /.row -->
 
+<h2 class="mb-4">動物たち <span class="small-50">インスタグラム</span></h2>
+<ul id="instafeed"></ul>
 
 <!-- Marketing Icons Section -->
 <div class="row mb-5">
