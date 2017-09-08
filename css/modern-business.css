@@ -75,7 +75,7 @@ a.btn {text-decoration:none;
     overflow: hidden;
     width: 305px;/* トリミングしたい枠の幅 */
     height: 305px;/* トリミングしたい枠の高さ */
-    position: relative;
+    object-fit: cover;
 }
 .polaroid {
   position: relative;
