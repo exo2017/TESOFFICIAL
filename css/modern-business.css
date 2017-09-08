@@ -83,7 +83,6 @@ a.btn {text-decoration:none;
 }
 
 .polaroid img {
-  border: 10px solid #fff;
   border-bottom: 45px solid #fff;
   -webkit-box-shadow: 3px 3px 3px #777;
      -moz-box-shadow: 3px 3px 3px #777;
@@ -95,7 +94,6 @@ a.btn {text-decoration:none;
   text-align: center;
   width: 100%;
   bottom: 0px;
-  font: 400 18px/1 'Kaushan Script', cursive;
   color: #888;
 }
 
