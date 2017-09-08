@@ -77,6 +77,29 @@ a.btn {text-decoration:none;
     height: 30  5px;/* トリミングしたい枠の高さ */
     position: relative;
 }
+.polaroid {
+  position: relative;
+  width: 220px;
+  margin: 20px;
+}
+
+.polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+
+.polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
+}
+
 /*
 #instafeed .col-lg-6 {
   padding: 0px;
