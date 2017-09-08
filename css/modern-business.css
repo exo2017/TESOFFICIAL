@@ -78,7 +78,8 @@ a.btn {text-decoration:none;
     object-fit: cover;
 }
 .polaroid {
-  margin-bottom: 20px;
+  width: 305;
+  margin-bottom: 20px
 }
 
 .polaroid img {
