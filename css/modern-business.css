@@ -77,10 +77,6 @@ a.btn {text-decoration:none;
     height: 305px;/* トリミングしたい枠の高さ */
     object-fit: cover;
 }
-.polaroid {
-  width: 305px;
-  margin-bottom: 20px
-}
 
 .polaroid img {
   border-bottom: 45px solid #fff;
@@ -132,4 +128,9 @@ footer {
 
 footer a {
   color: #ffffff;
+}
+
+footer .tel {
+  font-size: 2rem;
+  color: #FC66C2;
 }
