@@ -138,7 +138,7 @@ position: relative;
   margin:0;
   padding:0;
   font-weight: bold; /*太字に*/
-  font-size: 2em;/*サイズ2倍*/
+  font-size: 10rem;/*サイズ2倍*/
 }
 .example img {
   width: 100%;
