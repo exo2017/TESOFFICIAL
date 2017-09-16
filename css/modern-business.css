@@ -93,6 +93,32 @@ a.btn {text-decoration:none;
   color: #888;
 }
 
+/*kvループ*/
+#roop {
+    width: 100%;
+    height: 476;
+    background: url(/images/slides/kv.jpg) repeat-x;
+    background-position: 0 0;
+    -webkit-animation: bgroop 80s linear infinite;
+    animation: bgroop 80s linear infinite;
+}
+@-webkit-keyframes bgroop {
+    from {
+        background-position: 0  0;
+    }
+    to {
+        background-position: -2592 0;
+    }
+}
+@keyframes bgroop {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -2592 0;
+    }
+}
+
 /*
 #instafeed .col-lg-6 {
   padding: 0px;
