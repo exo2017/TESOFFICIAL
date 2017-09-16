@@ -72,17 +72,17 @@ a.btn {text-decoration:none;
 }
 /*insta*/
 .trim {
-    overflow: hidden;
-    width: 305px;/* トリミングしたい枠の幅 */
-    height: 305px;/* トリミングしたい枠の高さ */
-    object-fit: cover;
+  overflow: hidden;
+  width: 305px;/* トリミングしたい枠の幅 */
+  height: 305px;/* トリミングしたい枠の高さ */
+  object-fit: cover;
 }
 
 .polaroid img {
   border-bottom: 45px solid #fff;
   -webkit-box-shadow: 3px 3px 3px #777;
-     -moz-box-shadow: 3px 3px 3px #777;
-          box-shadow: 3px 3px 3px #777;
+  -moz-box-shadow: 3px 3px 3px #777;
+  box-shadow: 3px 3px 3px #777;
 }
 
 .polaroid p {
@@ -95,56 +95,72 @@ a.btn {text-decoration:none;
 
 /*kvループ*/
 #roop {
-    width: 100%;
-    height: 476px;
-    background: url(/images/slides/kv.jpg) repeat-x;
-    background-position: 0 0;
-    -webkit-animation: bgroop 80s linear infinite;
-    animation: bgroop 80s linear infinite;
+  width: 100%;
+  height: 476px;
+  background: url(/images/slides/kv.jpg) repeat-x;
+  background-position: 0 0;
+  -webkit-animation: bgroop 80s linear infinite;
+  animation: bgroop 80s linear infinite;
 }
 @-webkit-keyframes bgroop {
-    from {
-        background-position: 0  0;
-    }
-    to {
-        background-position: -2592px 0;
-    }
+  from {
+    background-position: 0  0;
+  }
+  to {
+    background-position: -2592px 0;
+  }
 }
 @keyframes bgroop {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: -2592px 0;
-    }
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -2592px 0;
+  }
 }
 
+/*アニメーション上にテキスト*
+example {/*親div*/
+position: relative;/*相対配置*/
+}
+
+.example p {
+  position: absolute;/*絶対配置*/
+  color: white;/*文字は白に*/
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
 /*
 #instafeed .col-lg-6 {
-  padding: 0px;
+padding: 0px;
 }
 #instafeed .col-md-6 {
-  padding: 0px;
+padding: 0px;
 }
 #instafeed figure {
-  position: relative;
+position: relative;
 }
 #instafeed figcaption {
-	background-color: rgba(0,0,0,0.8);
-	color:#FFF;
-	padding:10px;
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	-moz-transition: 0.3s;
-	-o-transition: 0.3s;
-	transition: 0.3s;
-	opacity:0;
+background-color: rgba(0,0,0,0.8);
+color:#FFF;
+padding:10px;
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+-moz-transition: 0.3s;
+-o-transition: 0.3s;
+transition: 0.3s;
+opacity:0;
 }
 #instafeed figcaption:hover{
-	opacity:1;
+opacity:1;
 }
 */
 /*フッター*/
