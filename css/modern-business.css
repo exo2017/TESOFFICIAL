@@ -167,7 +167,7 @@ position: relative;
   margin:0;
   padding:0;
   font-weight: bold; /*太字に*/
-  font-size: 5hrem;/*サイズ2倍*/
+  font-size: 5rem;/*サイズ2倍*/
   text-shadow: 1px 1px 5px #333333;
 }
 .example img {
