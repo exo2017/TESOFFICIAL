@@ -7,16 +7,17 @@
 /*大わけ*/
 
 @media (min-width: 768px) {
-.sp-element {
-  display: none !important;
-}
-
-@media (max-width: 768px) {
-.pc-element {
+  .sp-element {
     display: none !important;
   }
 }
- 
+
+@media (max-width: 768px) {
+  .pc-element {
+    display: none !important;
+  }
+}
+
 body {
   padding-top: 54px;
   background-color: #f9f4ea;
@@ -140,7 +141,7 @@ position: relative;/*相対配置*/
 .example {
 position: relative;
 }
-.example p {
+.kv p {
   position: absolute;/*絶対配置*/
   color: white;/*文字は白に*/
   top: 50%;
@@ -152,6 +153,21 @@ position: relative;
   padding:0;
   font-weight: bold; /*太字に*/
   font-size: 10rem;/*サイズ2倍*/
+  text-shadow: 1px 1px 5px #333333;
+}
+
+.kv p-sp {
+  position: absolute;/*絶対配置*/
+  color: white;/*文字は白に*/
+  top: 50%;
+  left: 50%;
+  -ms-transfiorm: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  font-weight: bold; /*太字に*/
+  font-size: 5hrem;/*サイズ2倍*/
   text-shadow: 1px 1px 5px #333333;
 }
 .example img {
