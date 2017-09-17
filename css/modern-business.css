@@ -4,6 +4,19 @@
 * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
 */
 
+/*大わけ*/
+
+@media (min-width: 768px) {
+.sp-element {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+.pc-element {
+    display: none !important;
+  }
+}
+ 
 body {
   padding-top: 54px;
   background-color: #f9f4ea;
@@ -139,6 +152,7 @@ position: relative;
   padding:0;
   font-weight: bold; /*太字に*/
   font-size: 10rem;/*サイズ2倍*/
+  text-shadow: 1px 1px 5px #333333;
 }
 .example img {
   width: 100%;
