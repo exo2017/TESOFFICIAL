@@ -59,6 +59,11 @@ h2 {
   font-weight: normal;
 }
 
+/* インスタ読み込みカードテキストがwebフォント対応せずなので対応*/
+#instafeed > div > div > div > p {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
 /*リンク*/
 a {
   color: #343a40;
