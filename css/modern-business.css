@@ -4,7 +4,7 @@
 * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
 */
 
-/*大わけ*/
+/*出し分け*/
 
 @media (min-width: 768px) {
   .sp-element {
@@ -17,7 +17,8 @@
     display: none !important;
   }
 }
-* {
+/*フォント指定*/
+nav,footer,h1,h2,h3,h4,h5,h6 {
   font-family: "G2サンセリフ-U";
 }
 
