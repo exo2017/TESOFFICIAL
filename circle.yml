@@ -1,0 +1,13 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: alpine:latest
+
+    working_directory: ~/TESOFFICIAL
+
+    steps:
+      - run: apk -U -q --no-cache --no-progress add git tidyhtml
+      - checkout
+      - run: for i in $(git diff --name-only HEAD^ | grep html$); do echo tidy $i ...; cat $i | tidy -i -e -q -raw -access --show-body-only yes $i; done
