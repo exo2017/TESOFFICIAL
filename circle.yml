@@ -10,4 +10,4 @@ jobs:
     steps:
       - run: apk -U -q --no-cache --no-progress add git tidyhtml
       - checkout
-      - run: for i in $(git diff --name-only HEAD^ | grep html$); do echo tidy $i ...; cat $i | sed -e 's/<span¥sclass=¥"navbar-toggler-icon¥"><¥/span>//g' -e 's/<¥/i>//g' | tidy -i -e -q -raw -access --show-body-only yes $i; done
+      - run: for i in $(git diff --name-only HEAD^ | grep html$); do echo tidy $i ...; cat $i | sed -e 's/<span\sclass=\"navbar-toggler-icon\"><\/span>//g' -e 's/<\/i>//g' | tidy -i -e -q -raw -access --show-body-only yes $i; done
